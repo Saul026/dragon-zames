@@ -1,0 +1,88 @@
+.select-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  background: url("../../../public/select-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  margin-top: 200px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.dragons-container {
+  width: 510px;
+  height: 500px;
+  display: flex;
+  align-items: end;
+}
+
+.prev,
+.next {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.prev {
+  transform: rotate(180deg);
+}
+
+.select-button {
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: rgb(199, 255, 0);
+}
+
+.player1,
+.player2 {
+  position: absolute;
+  top: 100px;
+}
+
+.player-name {
+  width: 250px;
+  padding: 20px 30px;
+  font-size: 24px;
+  border: 3px solid black;
+  background-color: rgb(199, 255, 0);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.player1 {
+  left: 60px;
+}
+
+.player2 {
+  right: 60px;
+}
+.player-dragon__container {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  border-top: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgb(199, 255, 0);
+}
+.player-dragon {
+  width: 250px;
+  padding: 6px;
+}
+.dragon-is-not-slected{
+  font-size: 20px;
+  font-weight: 700;
+}
