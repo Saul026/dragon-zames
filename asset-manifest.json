@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/dragon-zames/static/css/main.52e23857.css",
-    "main.js": "/dragon-zames/static/js/main.c40d9488.js",
+    "main.js": "/dragon-zames/static/js/main.f11aa6cb.js",
     "static/media/fight.png": "/dragon-zames/static/media/fight.b2b642ab5cd24e016c67.png",
     "static/media/backgroud.jpg": "/dragon-zames/static/media/backgroud.8aec12aea9b235537072.jpg",
     "static/media/avatar.png": "/dragon-zames/static/media/avatar.ff8ea91adb9b02e1ad91.png",
     "static/media/select-background.jpg": "/dragon-zames/static/media/select-background.02260decb73b5efa545f.jpg",
     "index.html": "/dragon-zames/index.html",
     "main.52e23857.css.map": "/dragon-zames/static/css/main.52e23857.css.map",
-    "main.c40d9488.js.map": "/dragon-zames/static/js/main.c40d9488.js.map"
+    "main.f11aa6cb.js.map": "/dragon-zames/static/js/main.f11aa6cb.js.map"
   },
   "entrypoints": [
     "static/css/main.52e23857.css",
-    "static/js/main.c40d9488.js"
+    "static/js/main.f11aa6cb.js"
   ]
 }
