@@ -1,0 +1,50 @@
+.select-page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    margin-top: 200px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.dragons-container {
+    width: 510px;
+    height: 500px;
+    display: flex;
+    align-items: end;
+}
+
+.prev,
+.next {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.prev {
+    transform: rotate(180deg);
+}
+
+.select-button {
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgb(199, 255, 0);
+}
+.start-button {
+    padding: 30px;
+    border: 3px solid black;
+    font-size: 70px;
+    border-radius: 10px;
+    background-color: rgb(199, 255, 0);
+}

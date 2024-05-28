@@ -1,0 +1,161 @@
+.game-page {
+    width: 100vw;
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.game-page__container {
+    position: relative;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.abilities {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.ability {
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 100px;
+    background-color: rgb(199, 255, 0);
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.fireball1 {
+    position: absolute;
+    width: 100px;
+    bottom: 200px;
+    animation-name: fireball1;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    z-index: 100;
+}
+.fireball2 {
+    position: absolute;
+    width: 100px;
+    bottom: 200px;
+    left: 1330px;
+    animation-name: fireball2;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    transform: rotate(180deg);
+    z-index: 100;
+}
+
+@keyframes fireball1 {
+    from {
+        left: 440px;
+    }
+
+    to {
+        left: 1330px;
+    }
+}
+
+@keyframes fireball2 {
+    from {
+        left: 1330px;
+    }
+
+    to {
+        left: 440px;
+    }
+}
+
+.tornado1 {
+    position: absolute;
+    width: 100px;
+    bottom: 200px;
+    animation-name: tornado1;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    z-index: 100;
+}
+.tornado2 {
+    position: absolute;
+    width: 100px;
+    bottom: 200px;
+    left: 1330px;
+    animation-name: tornado2;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    z-index: 100;
+}
+
+@keyframes tornado1 {
+    from {
+        left: 440px;
+    }
+
+    to {
+        left: 1330px;
+    }
+}
+
+@keyframes tornado2 {
+    from {
+        left: 1330px;
+    }
+
+    to {
+        left: 440px;
+    }
+}
+
+.meteorite1 {
+    position: absolute;
+    width: 100px;
+    bottom: 400px;
+    left: 850px;
+    animation-name: meteorite1;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    transform: rotate(270deg);
+    z-index: 100;
+}
+.meteorite2 {
+    position: absolute;
+    width: 100px;
+    bottom: 400px;
+    left: 850px;
+    animation-name: meteorite2;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    z-index: 100;
+}
+
+@keyframes meteorite1 {
+    from {
+        left: 850px;
+    }
+
+    to {
+        bottom: 220px;
+        left: 1330px;
+    }
+}
+
+@keyframes meteorite2 {
+    from {
+        left: 850px;
+    }
+
+    to {
+        bottom: 220px;
+        left: 400px;
+    }
+}

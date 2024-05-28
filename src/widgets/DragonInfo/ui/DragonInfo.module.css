@@ -1,0 +1,50 @@
+.prevAbility,
+.nextAbility {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.prevAbility {
+    transform: rotate(180deg);
+}
+
+.info {
+    position: absolute;
+    right: 6%;
+    bottom: 70px;
+    height: 350px;
+    width: 350px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    background-color: #fffcd3;
+    color: #000;
+    border: 6px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 18px;
+    transition: transform 0.2s ease-in-out;
+}
+.health {
+    object-fit: cover;
+    object-position: center;
+}
+.abilities {
+    display: flex;
+    flex-direction: column;
+}
+.abilities-container {
+    display: flex;
+    justify-content: space-between;
+}
+.abilities-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.bold {
+    font-weight: 700;
+}

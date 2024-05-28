@@ -1,0 +1,45 @@
+.modal {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    z-index: 100;
+}
+.modal-bg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background: #000;
+    opacity: 0.2;
+    z-index: 0;
+}
+.modal-window {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-radius: 20px;
+    z-index: 10;
+}
+.modal-window p {
+    font-size: 40px;
+}
+
+.modal-window a {
+    border: 2px solid aqua;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: aqua;
+}
